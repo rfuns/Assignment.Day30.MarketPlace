@@ -1,6 +1,17 @@
 .stack { display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }
 .stack > * { max-width: 100%; }
-.back { color: var(--color-primary); text-decoration: none; font-weight: 600; }
+/* Tombol kembali tetap menempel di bawah navbar (tinggi 65px) saat scroll */
+.back {
+  position: sticky;
+  top: 65px;
+  z-index: 5;
+  align-self: stretch;
+  padding: 8px 0;
+  background: var(--color-bg);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
 .detail { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 32px; width: 100%; }
 .imageWrap { display: flex; align-items: center; justify-content: center; padding: 16px; min-height: 280px; }
 .image { max-height: 420px; width: auto; object-fit: contain; }
