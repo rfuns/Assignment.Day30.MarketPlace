@@ -1,0 +1,10 @@
+.alert {
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  border: 1px solid;
+  overflow-wrap: anywhere;
+}
+.error { background: #fef2f2; color: #991b1b; border-color: #fecaca; }
+.success { background: #f0fdf4; color: #166534; border-color: #bbf7d0; }
+.info { background: #eff6ff; color: #1e40af; border-color: #bfdbfe; }
