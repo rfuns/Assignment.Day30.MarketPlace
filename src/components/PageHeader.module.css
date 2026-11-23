@@ -1,0 +1,5 @@
+.header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 24px; }
+.text { min-width: 0; }
+.title { font-size: clamp(1.4rem, 4vw, 2rem); line-height: 1.2; }
+.subtitle { color: var(--color-muted); margin-top: 4px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }

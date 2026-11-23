@@ -1,0 +1,10 @@
+.wrap { padding-top: 16px; }
+.form { display: flex; flex-direction: column; gap: 16px; }
+.title { font-size: 1.5rem; }
+.sub { color: var(--color-muted); font-size: 0.9rem; margin-top: -8px; }
+.hint { font-size: 0.8rem; color: var(--color-muted); background: var(--color-bg); padding: 10px 12px; border-radius: 8px; overflow-wrap: anywhere; }
+.hint code { font-weight: 700; color: var(--color-text); }
+.alt { text-align: center; font-size: 0.9rem; color: var(--color-muted); }
+.alt a { color: var(--color-primary); font-weight: 600; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 480px) { .row { grid-template-columns: minmax(0, 1fr); } }
