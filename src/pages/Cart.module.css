@@ -7,7 +7,7 @@
 .name { font-weight: 600; text-decoration: none; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .unit { color: var(--color-muted); font-size: 0.9rem; }
 .qty { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.sub { color: var(--color-primary); }
+.sub { color: var(--color-price); }
 .summary { display: flex; flex-direction: column; gap: 16px; position: sticky; top: 88px; }
 .total { display: flex; justify-content: space-between; font-size: 1.1rem; }
 

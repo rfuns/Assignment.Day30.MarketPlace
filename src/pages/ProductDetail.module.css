@@ -19,7 +19,7 @@
 .title { font-size: clamp(1.3rem, 3.5vw, 1.8rem); line-height: 1.3; overflow-wrap: anywhere; }
 .rating { color: var(--color-accent); font-weight: 700; }
 .rating span { color: var(--color-muted); font-weight: 400; font-size: 0.9rem; }
-.price { font-size: 2rem; font-weight: 800; color: var(--color-primary); }
+.price { font-size: 2rem; font-weight: 800; color: var(--color-price); }
 .description { color: var(--color-muted); overflow-wrap: anywhere; }
 .buy { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 8px; }
 .qty { display: flex; align-items: center; gap: 12px; font-weight: 700; }

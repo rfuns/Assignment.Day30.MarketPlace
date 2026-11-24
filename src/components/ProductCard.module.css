@@ -15,6 +15,6 @@
   min-height: 2.8em;
 }
 .meta { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-top: auto; }
-.price { font-size: 1.1rem; color: var(--color-primary); }
+.price { font-size: 1.1rem; color: var(--color-price); }
 .rating { font-size: 0.85rem; color: var(--color-accent); font-weight: 600; }
 .footer { padding: 8px 16px 16px; }
