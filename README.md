@@ -25,11 +25,9 @@ Seller pertama kali bisa juga dibuat lewat halaman **Daftar** (pilih "Seller").
 ## Fitur utama
 
 - Daftar produk, detail produk, filter kategori, pencarian, dan pengurutan.
-- **Pagination** di Home (8 produk per halaman, tersimpan di URL `?page=`).
 - Login & register, token JWT disimpan di `localStorage` dan dikirim sebagai `Authorization: Bearer <token>`.
 - **Protected routes**: `/users` dan `/users/:id` (wajib login), `/seller` (wajib login sebagai seller). Akses tanpa login dialihkan ke `/login` lalu kembali ke halaman tujuan setelah berhasil login.
 - Dashboard seller: tambah, ubah, dan hapus produk (POST/PUT/DELETE tersimpan ke database).
-- Responsive: grid menyesuaikan lebar layar, navbar menjadi menu hamburger di mobile.
 
 ## Database & Endpoint
 
