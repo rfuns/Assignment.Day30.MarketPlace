@@ -1,7 +1,7 @@
-# MarketPlace (Assignment Day 30)
+# MarketPlace (Sesuai dengan Assignment Day 30)
 
-Aplikasi marketplace berbasis **React + Vite** dengan backend mock **Express** dan database JSON lokal.
-Data awal (produk & user) diambil dari [FakeStoreAPI](https://fakestoreapi.com/docs), spesifikasinya tersimpan di `docs-data.json`.
+Aplikasi marketplace berbasis dengan database JSON lokal.
+Data awal (produk & user) diambil dari [FakeStoreAPI](https://fakestoreapi.com/docs) dan disimpan ke database lokal `server/db.json`.
 
 **Repository:** https://github.com/rfuns/Assignment.Day30.MarketPlace.git
 
